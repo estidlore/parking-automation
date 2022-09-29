@@ -52,7 +52,7 @@ const Variables: FC = (): JSX.Element => (
       {"definieron las variables «isBarrierInOpen» y «isBarrierOutOpen» para "}
       {"la apertura de las barreras de entrada y salida respectivamente. "}
       {"Tambien, del mismo modo se definieron las variables «hasTicket» y "}
-      {"«hasPaid» para la toma y pago del ticket, respectivamente."}
+      {"«hasPaid» para la toma y pago del tiquete, respectivamente."}
     </p>
     <p className={"my2"}>
       {"Finalmente, se definieron las variables «TofIn» de tipo «temporizador "}
