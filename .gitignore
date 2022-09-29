@@ -4,5 +4,11 @@
 *.bootinfo_guids
 *.compileinfo
 
-# Dependency directories
+# dependency directories
 node_modules/
+
+# firebase
+dist/
+.firebase/
+.firebaserc
+firebase.json
