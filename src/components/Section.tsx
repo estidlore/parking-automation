@@ -19,8 +19,8 @@ const Section: FC<ISectionProps> = ({
   }, [show, setShow]);
 
   return (
-    <section>
-      <p className={"f6 fw7 mb3"}>
+    <section className={"w10"}>
+      <p className={"f6 fw7 mb3 mt5"}>
         <Icon
           className={`mr3 ${show ? "rot90" : ""}`}
           icon={"right"}
@@ -28,7 +28,7 @@ const Section: FC<ISectionProps> = ({
         />
         {title}
       </p>
-      <div className={`bg-light2 p4 rnd trn3 ${show ? "show" : "hide"}`}>
+      <div className={`bg-light2 p4 rnd trn3 ws-pl ${show ? "show" : "hide"}`}>
         {children}
       </div>
     </section>
