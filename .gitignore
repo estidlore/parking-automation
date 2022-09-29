@@ -3,3 +3,6 @@
 *.bootinfo
 *.bootinfo_guids
 *.compileinfo
+
+# Dependency directories
+node_modules/
