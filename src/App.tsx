@@ -1,11 +1,12 @@
 import type { FC } from "react";
 import React from "react";
 
-import { Variables } from "./views";
+import { Development, Variables } from "./views";
 
 const App: FC = (): JSX.Element => (
-  <div className={"d-f f3 jc-center py5 px3"}>
+  <div className={"ai-center d-f f3 flex-col py5 px3"}>
     <Variables />
+    <Development />
   </div>
 );
 
